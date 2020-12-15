@@ -1,0 +1,8 @@
+prefix=/home/sis/sis_competition_2020/catkin_ws/devel
+
+Name: pose_estimate
+Description: Description of pose_estimate
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

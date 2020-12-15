@@ -1,0 +1,15 @@
+(cl:defpackage object_detection-srv
+  (:use )
+  (:export
+   "GET_MASK"
+   "<GET_MASK-REQUEST>"
+   "GET_MASK-REQUEST"
+   "<GET_MASK-RESPONSE>"
+   "GET_MASK-RESPONSE"
+   "GET_OBJECT_POSE"
+   "<GET_OBJECT_POSE-REQUEST>"
+   "GET_OBJECT_POSE-REQUEST"
+   "<GET_OBJECT_POSE-RESPONSE>"
+   "GET_OBJECT_POSE-RESPONSE"
+  ))
+

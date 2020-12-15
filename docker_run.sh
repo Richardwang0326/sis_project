@@ -54,7 +54,7 @@ if [ $# -gt 0 ]; then
             --runtime nvidia \
             -v "/etc/localtime:/etc/localtime:ro" \
             -v "/dev:/dev" \
-            -v "/home/$USER/2020-sensing-intelligent-system-competition/competition_modules:/home/sis/sis_competition_2020/catkin_ws/src" \
+            -v "/home/$USER/sis_project/catkin_ws/:/home/sis/sis_competition_2020/catkin_ws/" \
             -v "/home/$USER/.bashrc:/home/sis/.bashrc" \
             -e DISPLAY=$DISPLAY \
             -e XAUTHORITY=$XAUTH \

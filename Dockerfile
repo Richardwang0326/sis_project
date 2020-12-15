@@ -3,11 +3,8 @@ From argnctu/sis_2020:tx2
 WORKDIR /home/sis/sis_competition_2020
 RUN rm -rf ./catkin_ws/src/*
 
-COPY competition_modules/ ./catkin_ws/src
-#COPY task.launch ./catkin_ws/src/competition_modules/core/sis_task/launch/
 COPY catkin_make.sh .
 COPY environment.sh .
-#COPY run_task.sh .
 COPY start_tx2.sh .
 COPY set-ros-ip.sh .
 

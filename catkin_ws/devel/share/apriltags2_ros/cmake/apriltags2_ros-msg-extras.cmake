@@ -1,0 +1,2 @@
+set(apriltags2_ros_MESSAGE_FILES "/home/sis/sis_competition_2020/catkin_ws/src/competition_modules/core/apriltags2_ros/apriltags2_ros/msg/AprilTagDetectionArray.msg;/home/sis/sis_competition_2020/catkin_ws/src/competition_modules/core/apriltags2_ros/apriltags2_ros/msg/AprilTagDetection.msg")
+set(apriltags2_ros_SERVICE_FILES "/home/sis/sis_competition_2020/catkin_ws/src/competition_modules/core/apriltags2_ros/apriltags2_ros/srv/AnalyzeSingleImage.srv")

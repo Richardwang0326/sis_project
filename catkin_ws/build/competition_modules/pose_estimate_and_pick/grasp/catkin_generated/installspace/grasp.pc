@@ -1,0 +1,8 @@
+prefix=/home/sis/sis_competition_2020/catkin_ws/install
+
+Name: grasp
+Description: Description of grasp
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime

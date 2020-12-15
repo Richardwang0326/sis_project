@@ -1,0 +1,8 @@
+prefix=/home/sis/sis_competition_2020/catkin_ws/devel
+
+Name: apriltags2
+Description: Description of apriltags2
+Version: 0.9.8
+Cflags: -I/home/sis/sis_competition_2020/catkin_ws/src/competition_modules/core/apriltags2_ros/apriltags2/include
+Libs: -L${prefix}/lib -lapriltags2
+Requires: 
