@@ -48,30 +48,10 @@ source start_tx2.sh
 roslaunch ojject_detection task1.launch
 ```
   
-- Terminal3
-```
-roslaunch astar navigation.launch
-```
-  
 - Terminal4
 ```
 rosrun sis_task all.py
 ```  
-
-## How to use task3 pkg
-```
-roslaunch astar navigation.launch
-```
-
-to go to plate number ex: plate 0
-```
-rosservice call /to_position "pos: 0"
-```
-
-to adjust the rotation of the locobot ex: plate 0
-```
-rosservice call /get_pose "plate: 0"
-```
 
 ## How to build docker image:
 ```
